@@ -1,14 +1,14 @@
-# ecomerce_customer_churn_prediction
-# Latar Belakang :
+# Ecomerce_Customer_Churn_Prediction
+## Latar Belakang :
 analisis data yang efisien dapat mengambil keputusan yang cepat dan tepat. Untuk itu, dibutuhkan beberapa metode analisis yang sesuai dengan data, dan Machine Learning bisa menjadi solusi karena mampu menganalisis data besar dalam waktu singkat.
 
-# Permasalahan :
+## Permasalahan :
 Analisis data dalam jumlah besar membutuhkan waktu beberapa jam - beberapa hari (3-7 hari) jika dilakukan secara manual. Diperlukan penerapan Machine Learning yang membutuhkan waktu beberapa detik hingga puluhan menit tergantung jumlah datanya.
 
-# Tujuan Evaluasi : 
+## Tujuan Evaluasi : 
 Tujuan evaluasi model adalah untuk mengoptimalkan F1 Score. F1 Score dipilih karena perusahaan masih baru dalam menggunakan machine learning, sehingga membutuhkan metrik yang menyeimbangkan antara Precision dan Recall
 
-# tahapan analisis dan pemodelan
+## tahapan analisis dan pemodelan
 - DATA UNDERSTANDING : Load data, Type data, deskripsi fitur dan label, Data Agg, Missing value dan Value 0, Duplikat, save data ( digunakan untuk machine learning, tidak ada duplikat)
 - CLEANING DENGAN KNN IMPUTER ( HANYA UNTUK EDA, BUKAN UNTUK SEBELUM SPLITING ) : Catatan Rekomendasi n_neighbors, preparation, Imputasi, Save data
 - EXPLORASI DATA : Distribusi, Outlier, Korelasi, column kategorik yang akan di encode, column numerik yang akan di scaling, Tipe masalah, HANDLING IMBALANCE : mencari metode terbaik menggunakan model xgboost
