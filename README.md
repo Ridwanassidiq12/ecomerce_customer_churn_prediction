@@ -5,7 +5,7 @@ analisis data yang efisien dapat mengambil keputusan yang cepat dan tepat. Untuk
 # Permasalahan :
 Analisis data dalam jumlah besar membutuhkan waktu beberapa jam - beberapa hari (3-7 hari) jika dilakukan secara manual. Diperlukan penerapan Machine Learning yang membutuhkan waktu beberapa detik hingga puluhan menit tergantung jumlah datanya.
 
-# Evaluasi : 
+# Tujuan Evaluasi : 
 Tujuan evaluasi model adalah untuk mengoptimalkan F1 Score. F1 Score dipilih karena perusahaan masih baru dalam menggunakan machine learning, sehingga membutuhkan metrik yang menyeimbangkan antara Precision dan Recall
 
 # tahapan analisis dan pemodelan
